@@ -19,13 +19,13 @@ canvas
 #Home
 {
     position:absolute;
-    top :30%;
-    left:10%;
-    width: 80%;
-    height: 60%;
-    background-color: black;
-    opacity: 0.5;
-    color:white;
+    top :150px;
+    left:300px;
+    width: 745px;
+    height: 400px;
+    background-color:black;
+    opacity: 0.6;
+    color:lightyellow;
     font-size: 50px;
     text-align: left;
 }
@@ -35,27 +35,50 @@ canvas
     left: 0;
     top: 0;
     width: 100%;
-    background-color: lightsteelblue;
+    height: 40px;
+    background-color: darkslategray;
 }
+
 #menu_bar ul
 {
-    margin-left: 40%;
-    
+    position: absolute;
+    top: 0;
+    left: 250px;
 }
 #menu_bar ul li
 {
     float: left;
-    margin: 10px;
+    margin-left: 50px;
     display: block;
+    height: 40px;
+    line-height: 40px;
 }
 #menu_bar ul li a
 {
     text-decoration: none;
+    font-size: 25px;
     display: block;
-    font-size: 20px;
-    color: black;
+    color: azure;
 }
-
+@media screen and (max-width: 1100px)
+{
+    #menu_bar ul
+    {
+      position: absolute;
+        left: 0;
+    }
+    #home_b
+    {
+        visibility: visible;
+    }
+}
+@media screen and (max-width: 850px)
+{
+    #menu_bar ul
+    {
+      visibility: hidden;
+    }
+}
 #second
 {
     position: absolute;
@@ -83,21 +106,35 @@ canvas
 }
 #first_para
 {
-    margin: 5%;
-    margin-top: 5%;
+    position: absolute;
+    left: 20%;
+    margin-top: 200px;
     width: 60%;
     font-size: 30px;
-    height: 70%;
+    height: 40%;
+    text-align: center;
+    color: seashell;
 }
-#pro_pic
+
+#demo
 {
-    position: absolute;
-    top: 10%;
-    left: 70%;
-    height: 50%;
-    opacity: 1.0;
+    width: 60%;
+    font-size: 30px;
+    height: 40%;
+    text-align: center;
+    color: seashell;
 }
-#he1
+@media screen and (max-width: 400px)
 {
-    float:left;
+    #first_para
+    {
+       font-size: 20px; 
+    }
+}
+#home_b
+{
+    height: 40px;
+    width: 50px;
+    visibility: hidden;
+    
 }

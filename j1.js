@@ -1,18 +1,17 @@
-
-$(document).ready(function(){
 var W;
 var H;
+$(document).ready(function(){
+
 window.onload = function(){
 	//canvas init
 	var canvas = document.getElementById("canvas");
 	var ctx = canvas.getContext("2d");
-	
 	//canvas dimensions
 	W = window.innerWidth;
     H = window.innerHeight;
 	canvas.width = W;
 	canvas.height = H;
-	
+
 	//snowflake particles
 	var mp = 25; //max particles
 	var particles = [];
@@ -102,3 +101,8 @@ window.onresize = function(){
 	
 }
 })
+document.getElementById("demo").innerHTML="W";
+var pic = document.getElementById("pro_pic");
+	if(W<600)
+        pic.style.visibility="hidden";
+	

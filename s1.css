@@ -4,30 +4,137 @@
     padding: 0;
 }
 body 
-{  
-    
-}
-
-canvas 
 {
-	display: block;
-    background-image: url(FrontCover.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
-
-#Home
+#top_div
 {
-    position:absolute;
-    top :150px;
-    left:300px;
-    width: 745px;
-    height: 400px;
-    background-color:black;
+    position: absolute;
+    top: 0;
+    height: 40%;
+    width: 100%;
+    background-color: black;
+}
+#top_img
+{
+    height: 100%;
+    width: 100%;
     opacity: 0.6;
-    color:lightyellow;
-    font-size: 50px;
-    text-align: left;
+}
+#Name
+{
+    position: absolute;
+    top: 100px;
+    left: 30%;
+    color: lightgoldenrodyellow;
+    font-size: 400%;
+    font-family:Lucida Calligraphy;
+    width: 1000px;
+}
+#heading
+{
+    position: absolute;
+    top: 200px;
+    left: 35%;
+    color: pink;
+    font-size: 200%;
+    font-family:Lucida Calligraphy;
+    width: 1000px;
+}
+/*background_parallax*/
+#fixed_back
+{
+    position: absolute;
+    top: 100%;
+    height: 100%;
+    width: 100%;
+    background-image: url(hand_writing.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#fixed_back_a
+{
+    position: absolute;
+    top: 240%;
+    height: 100%;
+    width: 100%;
+    background-image: url(gbook.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#fixed_back_b
+{
+    position: absolute;
+    top: 380%;
+    height: 100%;
+    width: 100%;
+    background-image: url(dslr.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#fixed_back_c
+{
+    position: absolute;
+    top: 520%;
+    height: 100%;
+    width: 100%;
+    background-image: url(chess.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*into*/
+#intro
+{
+    position: absolute;
+    top: 40%;
+    height:60%;
+    width: 100%;
+    background-color: darkgrey;
+}
+/*About*/
+#About
+{
+    position: absolute;
+    top:120%;
+    height:60%;
+    width: 100%;
+    background-color: lightblue;
+    opacity: 0.6;
+}
+#Edu
+{
+    position: absolute;
+    top:200%;
+    height:40%;
+    width: 100%;
+    background-color: white;
+    opacity: 0.5;
+}
+#Skill
+{
+    position: absolute;
+    top:260%;
+    height:60%;
+    width: 100%;
+    background-color:lavender;
+    opacity: 0.5;
+}
+#Hobi
+{
+    position: absolute;
+    top:340%;
+    height:40%;
+    width: 100%;
+    background-color: white;
+    opacity: 0.5;
+}
+#Ach
+{
+    position: absolute;
+    top:400%;
+    height:60%;
+    width: 100%;
+    background-color: blanchedalmond;
+    opacity: 0.5;
 }
 #menu_bar
 {
@@ -36,14 +143,14 @@ canvas
     top: 0;
     width: 100%;
     height: 40px;
-    background-color: darkslategray;
+    background-color: darkslateblue;
 }
 
 #menu_bar ul
 {
     position: absolute;
     top: 0;
-    left: 250px;
+    left: 300px;
 }
 #menu_bar ul li
 {
@@ -60,81 +167,35 @@ canvas
     display: block;
     color: azure;
 }
-@media screen and (max-width: 1100px)
-{
-    #menu_bar ul
-    {
-      position: absolute;
-        left: 0;
-    }
-    #home_b
-    {
-        visibility: visible;
-    }
-}
-@media screen and (max-width: 850px)
-{
-    #menu_bar ul
-    {
-      visibility: hidden;
-    }
-}
-#second
+#profile
 {
     position: absolute;
-    top: 100%;
+    top: 5%;
+    left: 25%;
+    height: 90%;
+    width: 50%;
+    background-color: snow;
+}
+#profile_pic
+{
+    position: absolute;
+    left: 0;
+    top: 0;
     height: 100%;
-    width: 100%;
-    background-color: cornflowerblue;
 }
-#third
+#Intro_para
 {
     position: absolute;
-    top:150%;
-    height: 50%;
-    width: 100%;
-    background-color: magenta;
-}
-
-#fourth
-{
-    position: absolute;
-    top: 200%;
+    left: 45%;
+    top: 0;
+    font-size: 150%;
     height: 100%;
-    width: 100%;
-    background-color: brown;
+    width: 50%;
 }
-#first_para
+#Read_more
 {
-    position: absolute;
-    left: 20%;
-    margin-top: 200px;
-    width: 60%;
-    font-size: 30px;
-    height: 40%;
-    text-align: center;
-    color: seashell;
-}
-
-#demo
-{
-    width: 60%;
-    font-size: 30px;
-    height: 40%;
-    text-align: center;
-    color: seashell;
-}
-@media screen and (max-width: 400px)
-{
-    #first_para
-    {
-       font-size: 20px; 
-    }
-}
-#home_b
-{
-    height: 40px;
-    width: 50px;
-    visibility: hidden;
-    
+    text-decoration: none;
+    padding: 20px;
+    background-color: lightslategray;
+    color: cornsilk;
 }

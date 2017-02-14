@@ -1,0 +1,8 @@
+@media screen and (max-width: 1150px)
+{
+    #menu_bar
+    {
+        display: none;
+    }
+}
+

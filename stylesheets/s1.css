@@ -1,0 +1,425 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body 
+{
+
+}
+#top_div
+{
+    position: absolute;
+    top: 0;
+    height: 15vw;
+    width: 100%;
+    background-color: white;
+}
+#top_img
+{
+    position: absolute;
+    top: 10vw;
+    width: 100%;
+    opacity: 0.5;
+}
+#Name
+{
+    position: absolute;
+    margin-top:5%;
+    left: 28vw;
+    color: black;
+    font-size: 5vw;
+    font-family:Lucida Calligraphy;
+    width: auto;
+    font-weight: bold;
+}
+#heading
+{
+    position: absolute;
+    margin-top:12%;
+    left: 32vw;
+    color: black;
+    font-size: 3vw;
+    font-family:Lucida Calligraphy;
+}
+/*background_parallax*/
+#fixed_back
+{
+    position: absolute;
+    top: 100%;
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/hand_writing.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+#fixed_back_a
+{
+    position: absolute;
+    top: 240%;
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/gbook.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+#fixed_back_b
+{
+    position: absolute;
+    top: 380%;
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/dslr.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+#fixed_back_c
+{
+    position: absolute;
+    top: 520%;
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/chess.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#fixed_back_d
+{
+    position: absolute;
+    top: 640%;
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/art.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*into*/
+#intro
+{
+    position: absolute;
+    top: 16vw;
+    height:60%;
+    width: 100%;
+}
+/*About*/
+#About
+{
+    position: absolute;
+    top:120%;
+    height:60%;
+    width: 100%;
+    background-color: lightblue;
+    opacity: 0.9;
+}
+#Edu
+{
+    position: absolute;
+    top:200%;
+    height:20%;
+    width: 100%;
+    background-color: white;
+    opacity: 0.5;
+}
+#Skill
+{
+    position: absolute;
+    top:240%;
+    height:80%;
+    width: 100%;
+    background-color:white;
+    opacity: 0.8;
+}
+#Hobi
+{
+    position: absolute;
+    top:340%;
+    height:40%;
+    width: 100%;
+    background-color: white;
+    opacity: 0.5;
+}
+#Ach
+{
+    position: absolute;
+    top:400%;
+    height:60%;
+    width: 100%;
+    opacity: 0.8;
+}
+#menu_bar
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    background-color: darkslateblue;
+}
+
+#menu_bar ul
+{
+    position: absolute;
+    top: 0;
+    left: 8%;
+    width: 84%;
+    height: 100%;
+}
+#menu_bar ul li
+{
+    float: left;
+    margin-left: 0px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    width: 14%;
+}
+#menu_bar ul li a
+{
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    color: azure;
+    text-align: center;
+}
+#menu_bar ul li a:hover
+{
+    background-color:darkslategrey;
+    color: lightsteelblue;
+    border-bottom: solid 2px crimson;
+}
+#profile
+{
+    position: absolute;
+    margin-top:0%;
+    left: 25%;
+    height: 27vw;
+    width: 55vw;
+    border: solid 1px black;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px grey;
+}
+#profile_pic
+{
+    position: absolute;
+    left: 2vw;
+    top: 3vw;
+    height: 21vw;
+    border-radius: 10px;
+}
+#Intro_para
+{
+    position: absolute;
+    left: 25vw;
+    height: 22vw;
+    width: 40%;
+    border-radius: 10px;
+    margin-top: 2.5vw;
+    padding-left: 2.5vw;
+    line-height: 1.5;
+    background-color: white;
+    font-size: 2vw;
+}
+#Read_more
+{
+    text-decoration: none;
+    padding: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: transparent;
+    color: black;
+    opacity: 0.8;
+    border: solid 0.2vw ;
+    border-radius: 2vw;
+}
+#Read_more:hover
+{
+    color:snow;
+    background-color: darkslategrey;
+}
+#About_me
+{
+    position: absolute;
+    top: 5%;
+    height: 80%;
+    width: 1400px;
+    font-size: 130%;
+    font-family: Century Schoolbook;
+    text-align: center;
+    color: black;
+}
+#school
+{
+    margin: 4%;
+    margin-left: 5%;
+    background-color: white;
+    height: auto;
+    width: 30%;
+}
+#coaching
+{
+    position: absolute;
+    top: 0%;
+    margin: 4%;
+    margin-left:35%;
+    background-color: white;
+    height: auto;
+    width: 30%;
+}
+#college
+{
+    position: absolute;
+    top: 0%;
+    margin: 4%;
+    margin-left:65%;
+    background-color:white;
+    height: auto;
+    width: 30%;
+}
+#edu_para
+{
+    margin: 5%;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 150%;
+    font-family:Perpetua;
+    height: auto;
+    width: 90%;
+    line-height: 25px;
+}
+#more_bar
+{
+    position: fixed;
+    top: 45px;
+    left: 78%;;
+    height: 200px;
+    width:12%;
+    background-color: cadetblue;
+    display: none;
+}
+#more_bar ul
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#more_bar ul li
+{
+    margin-left: 0px;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+#more_bar ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    color: darkslategrey;
+}
+#more_bar ul li a:hover
+{
+    background-color:darkslategrey;
+    color: lightsteelblue;
+    border-bottom: solid 2px crimson;
+}
+#skill_intro
+{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    width: 20%;
+    height: 80%;
+    background-color: black;
+    color: skyblue;
+    text-align: center;
+}
+#skill_intro ul
+{
+    height:70%;
+    margin-top:10%;
+    line-height: 2;
+    display: block;
+}
+#skill_intro ul li
+{
+    display: block;
+    text-decoration: none;
+    padding:0;
+}
+#prog_lang
+{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    width: 50%;
+    height:80%;
+    background-color: black;
+}
+button
+{
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+    background-color: white;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+    padding-right: 25px;
+    font-weight: 700;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+button:hover
+{
+    border-color:red; 
+    border-width: 5px;
+}
+button:focus
+{
+    border-left-color: lime;
+    border-width: 5px;
+    font-weight: 700;
+}
+
+#prog_lang p
+{
+    color: pink;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 98.5%;
+    height: 73.8%;
+    font-size: 200%;
+    text-align: center;
+    border: solid 5px white;
+}

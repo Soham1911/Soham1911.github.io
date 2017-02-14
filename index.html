@@ -2,15 +2,38 @@
 <html>
 <head>
 <title>Soham Kadam</title>
-    <link rel="stylesheet" href="s1.css">
+    <link rel="stylesheet" href="stylesheets/s1.css">
+    <link rel="stylesheet" href="stylesheets/mq.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="javascripts/j1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#but1").click(function(){
+        $("#prog_lang_p").html("Web Development");
+    });
+    $("#but2").click(function(){
+        $("#prog_lang_p").html("Compitative Coding");
+    });
+    $("#but3").click(function(){
+        $("#prog_lang_p").html("Software Development");
+    });
+    $("#but4").click(function(){
+        $("#prog_lang_p").html("Ethical Hacking");
+    });
+    $("#but5").click(function(){
+        $("#prog_lang_p").text("Programming Languages");
+    });
+});
+</script>
 </head>
     <body>
-        <div id="top_div">
-            <img id="top_img" src="watch.jpg">
+        <img id="top_img" src="images/Competitive-Programming.jpg">
+         <div id="top_div">
             <h1 id="Name">Soham D. Kadam</h1>
             <h4 id="heading">BITS Pilani,Goa Campus</h4>
         </div>
-        <div id="fixed_back">
+         <div id="fixed_back">
         
         </div>
         <div id="fixed_back_a">
@@ -22,44 +45,103 @@
         <div id="fixed_back_c">
         
         </div>
+        <div id="fixed_back_d">
+        
+        </div>
         <div id="intro">
             <div id="profile">
-                <img id="profile_pic" src="soham.jpg">
+                <img id="profile_pic" src="images/soham.jpg">
                 <p id="Intro_para">
-                    Here I am goint to write something interesting about myself...
-                    <br>T1 is coming ....
-                    <br>I will play in Spree'17...
-                    <br>Computer Science
-                    <br>
+                    <b>Hello World!!!</b>
+                    <br><b>I am Soham Kadam.</b>
+                    <br>I'm a coder and
+                        and an artist.
+                    <br><br>
                     <br><a id="Read_more" href="#fixed_back">Read more...</a>
                 </p>
             </div>
         </div>
         <div id="About">
-            
+            <p id="About_me">
+                <b><span style="font-family:Harlow Solid;font-size:180%;color:darkmagenta">"Every day , in every way , I am getting better and better"</span></b>
+                <br><br>I am pursuing a major in Computer Science at<a href="http://www.bits-pilani.ac.in/goa/" style="text-decoration:none;color:darkblue;"> <b>BITS Pilani, K.K. Birla Goa Campus</b></a>.  
+<br>I am among someone who is consistently growing themselves and who takes the time to<br> continue learning. I am modest, but hard working and I consistently set firm goals for myself.<br> Then, once I've defined the benchmarks, I take the necessary steps to achieve those milestones. <br>I am someone who is mature, candid and who has integrity. Everyday I work to improve myself <br>and my skills which is part of maturing and becoming better at what I do. I love learning new <br>stuff and I don't think I am ever going to get satiated with the things I already know. 
+<br><br>I wouldn't talk much about my strengths and weaknesses here. You might have a chance to<br> figure them out when you get to know me personally :P. 
+            </p>
         </div>
         <div id="Edu">
         
         </div>
         <div id="Skill">
-        
+            <div id="school">
+                <a href="http://www.snjb.org/"><img src="images/snjb.jpg" style="margin-left:25%;width:50%;margin-top:4%;height:40%;"></a>
+                <p id="edu_para">
+                   <b> <span style="font-size:140%;">S.N.J.B High School</span></b>
+                    <br><b>Secondary School Certificate</b>
+                    <br><b>Class I to Class X</b>
+                    <br>(2003-2013)
+                    <br>This was the place where I learnt about smart work and discipline. It laid the foundation for my future. Also made some true friends.
+                </p>
+            </div>
+            <div id="coaching">
+                <a href="https://www.resonance.ac.in"><img src="images/resonance.jpg" style="margin-left:25%;width:50%;margin-top:6%;height:40%;"></a>
+                <p id="edu_para">
+                    <b> <span style="font-size:140%">Resonance</span></b>
+                    <br><b>Intermediate Education</b>
+                    <br><b>Class XI and XII</b>
+                    <br>(2013-2015)
+                    <br>I was given solid competitive exam coaching here along with the regular curriculum helping me secure top ranks in the exams.
+                </p>
+            </div>
+            <div id="college">
+                <a href="http://www.bits-pilani.ac.in/goa/"><img src="images/bits.png" style="margin-left:25%;width:45%;margin-top:0%;height:40%;"></a>  
+                <p id="edu_para">
+                    <b> <span style="font-size:140%"> BITS Pilani, K.K. Birla Goa Campus</span></b>
+                    <br><b>B.E.(Hons.) Computer Science</b>
+                    <br><b>Undergraduate Studies</b>
+                    <br>(2015-2019)
+                    <br>This has truly been a home away from home. With excellent mentorship from the faculty, I have understood the true essence of Computer Science. 
+                </p>
+            </div>
         </div>
         <div id="Hobi">
         
         </div>
         <div id="Ach">
-        
+            <div id="skill_intro">
+                <h1>Technical Skills</h1>
+                <ul>
+                    <li><button id="but1"><span>Web Development</span></button></li>
+                    <li><button id="but2"><span>Compitative Coding</span></button></li>
+                    <li><button id="but3"><span>Software Development</span></button></li>
+                    <li><button id="but4"><span>Ethical Hacking</span></button></li>
+                    <li><button id="but5"><span>Programming Languages</span></button></li>
+                </ul>
+            </div>
+            <div id="prog_lang">
+                <p id="prog_lang_p">
+                    I am a programmer. I love coding. Here are some of my technical skills.
+                    To know in details , select sub-category.
+                </p>
+            </div>
         </div>
-        
+        <div id="more_bar">
+                    <ul>
+                        <li><a href="#"><b>Art Gallary</b></a></li>
+                        <li><a href="#"><b>Contact</b></a></li>
+                        <li><a href="#"><b>Resume</b></a></li>
+                        <li><a href="#"><b>Hobbies</b></a></li>
+                    </ul>
+        </div>
         <div id="menu_bar"> 
             <ul>
-                
-                <li><a id="ht" href="#top_div">Home</a></li>
-                <li><a id="ab" href="#fixed_back">About</a></li>
-                <li><a id="sk" href="#fixed_back_b">Skills</a></li>
-                <li><a id="ed" href="#fixed_back_a">Education</a></li>
-                <li><a id="hb" href="#fixed_back_c">Hobbies</a></li>
-                <li><a id="ac" href="#Edu">Achievments</a></li>
+                <li><a id="ht" href="#" onclick="smoothScroll(document.getElementById('top_div'))">Home</a></li>
+                <li><a id="ab" href="#" onclick="smoothScroll(document.getElementById('fixed_back'))">About</a></li>
+                <li><a id="ed" href="#" onclick="smoothScroll(document.getElementById('fixed_back_a'))">Education</a></li>
+                <li><a id="sk" href="#" onclick="smoothScroll(document.getElementById('fixed_back_b'))">Skills</a></li>
+                <li><a id="hb" href="#" onclick="smoothScroll(document.getElementById('fixed_back_c'))">Projects</a></li>
+                <li><a id="ac" href="#" onclick="smoothScroll(document.getElementById('fixed_back_d'))">Achievments</a></li>
+                <li><a id="ac" href="#">More</a></li>
             </ul>
         </div>
     </body>

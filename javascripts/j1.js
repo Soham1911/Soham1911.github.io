@@ -15,7 +15,7 @@ window.smoothScroll = function(target) {
     scroll = function(c, a, b, i) {
         i++; if (i > 30) return;
         c.scrollTop = a + (b - a) / 30 * i;
-        setTimeout(function(){ scroll(c, a, b, i); }, 0.1);
+        setTimeout(function(){ scroll(c, a, b, i); },0.5);
     }
     // start scrolling
     scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
@@ -23,14 +23,4 @@ window.smoothScroll = function(target) {
 window.addEventListener("scroll",parallax,false);
 
 
-
-function parallax(){
-	var div1=document.getElementById("second");
-	var div2=document.getElementById("third");
-	var div3=document.getElementById("fourth");
-	div1.style.top=-(window.pageYOffset/1.5)+'px';
-div2.style.top=-(window.pageYOffset/4.5)+'px';
-	div3.style.top=-(window.pageYOffset/1.5)+'px';
-
-
-}
+  
